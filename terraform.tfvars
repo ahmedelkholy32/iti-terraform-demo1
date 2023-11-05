@@ -1,0 +1,6 @@
+env = "development"
+vpc_cidr = "10.0.0.0/16"
+subnet-cidr = "10.0.0.0/24"
+ingress-cidr = "0.0.0.0/0"
+instance-type = "t2.micro"
+ssh-pub = "~/Documents/keys/iti_terraform.pub"
